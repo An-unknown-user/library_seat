@@ -1,0 +1,41 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/home/home",
+    "pages/reserve/reserve",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "blue",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#666666",
+    "navigationBarTitleText": "图书馆座位预约",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "selectedColor":"#D53E37",
+    "backgroundColor":"#F5F5F5",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/home/home",
+      "text":"首页",
+      "iconPath":"images/tabBar/home.png",
+      "selectedIconPath":"images/tabBar/home_filled.png"
+    },{
+      "pagePath": "pages/reserve/reserve",
+      "text": "预约",
+      "iconPath": "images/tabBar/reserve.png",
+      "selectedIconPath":"images/tabBar/reserve_filled.png"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/tabBar/me.png",
+      "selectedIconPath": "images/tabBar/me_filled.png"
+    }]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "download":10000
+  },
+  "debug":true
+}
